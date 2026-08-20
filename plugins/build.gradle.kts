@@ -1,4 +1,6 @@
-aliucord {
-    author("Adham", 0L, hyperlink = true)
-    github("https://github.com/adh01640-beep/NewUploadLimit")
+subprojects {
+    aliucord {
+        author("Adham")
+        buildUrl("https://raw.githubusercontent.com/adh01640-beep/NewUploadLimit/builds/%s.zip")
+    }
 }
